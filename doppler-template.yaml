@@ -1,13 +1,13 @@
 projects:
-  - name: "projeto_teste\"><script>alert(1)</script>"
-    description: "testando_template\"><img src=x onerror=alert(2)>"
+  - name: "projeto_valido_sem_erro"
+    description: "testando\"><script>alert(document.domain)</script><img src=x onerror=alert(1)>"
 
     environments:
-      - name: Development
+      - name: "Development\"><script>alert(2)</script>"
         slug: dev
         configs:
           - slug: dev
 
     secrets:
       - dev:
-          TESTE: "123"
+          "CHAVE_TESTE\"><script>alert(3)</script>": "123"
