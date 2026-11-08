@@ -1,0 +1,13 @@
+projects:
+  - name: "projeto_teste\"><script>alert(1)</script>"
+    description: "testando_template\"><img src=x onerror=alert(2)>"
+
+    environments:
+      - name: Development
+        slug: dev
+        configs:
+          - slug: dev
+
+    secrets:
+      - dev:
+          TESTE: "123"
