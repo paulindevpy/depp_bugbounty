@@ -1,13 +1,13 @@
 projects:
-  - name: "projeto_teste_bounty"
-    description: "Configuracoes do sistema \"><script>alert(document.domain)</script><img src=x onerror=alert(1)>"
+  - name: "projetobugbounty"
+    description: "Configuracoes gerais \"><script>alert(document.domain)</script><img src=x onerror=alert(1)>"
 
     environments:
       - name: "Development"
-        slug: dev
+        slug: "dev"
         configs:
-          - slug: dev
+          - slug: "dev"
 
     secrets:
-      - dev:
-          CHAVE_TESTE: "123"
+      dev:
+        CHAVE_VALIDA: "teste\"><img src=x onerror=alert(2)>"
